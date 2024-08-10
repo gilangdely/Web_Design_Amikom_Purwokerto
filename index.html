@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/faviconbem/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/faviconbem/favicon-16x16.png">
+<link rel="manifest" href="assets/faviconbem/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM ITBA DCC</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+</head>
+
+<body class="bg-default">
+    <header class="bg-default">
+        <div class="container dis-flex jc-between ai-center">
+            <img src="./assets/logo_bem.png" alt="Logo BEM ITBA" style="width: 50px;">
+            <span class="menu-toggle t-900">
+                <p class="toggle">&#9776;</p>
+            </span>
+        </div>
+        <nav class="menu bg-default dis-none">
+            <p class="toggle-off t-900">&#9587;</p>
+            <div class="container-sm">
+                <ul>
+                    <li><a href="#about" class="t-hitam t-700">Tentang Kami</a></li>
+                    <li><a href="#works" class="t-hitam t-700">Program Kegiatan</a></li>
+                    <li><a href="#contact" class="t-hitam t-700">Gabung dengan kami</a></li>
+                    <li><a href="#contact" class="t-hitam t-700">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <article class="home bg-default" id="home">
+            <div class="container-sm">
+                <div class="wrapper bg-white radius">
+                    <div class="home-text">
+                        <div class="container flex-column jc-arround">
+                            <div class="home-text-wrapper flex-column ">
+                                <h3 class="t-hitam t-600 subtitle">Hello, sahabat kampus merah! 👋</h3>
+                                <h1 class="t-hitam t-700">Selamat datang bagi seluruh mahasiswa dan pengunjung yang terhormat </h1>
+                                <p>Kami dari BEM Institut Teknologi Bisnis dan Bahasa Dian Cipta Cendikia dengan bangga mempersembahkan website ini sebagai wadah informasi dan komunikasi untuk seluruh civitas akademika.</p>
+                            </div>
+                            <a href="#works" class="cta-seeworks btn-cta rounded t-900">&#8595</a>
+                        </div>
+                    </div>
+                    <div class="home-picture bg-blue dis-flex jc-center ai-end">
+                        <div class="bg-aksen aksen-1"></div>
+                        <div class="bg-aksen aksen-2"></div>
+                        <h1 class="t-white">ITBA<br>DCC.</h1>
+                        <img src="./assets/Logo ITBA-DCC.png" class="mypicture" alt="My Picture">
+                    </div>
+                </div>
+            </div>
+        </article>
+        
+
+        <article class="about bg-white" id="about">
+            <div class="container dis-flex">
+                <aside class="about-picture dis-flex ai-end jc-center bg-blue radius">
+                    <div class="bg-aksen aksen-1"></div>
+                    <div class="bg-aksen aksen-2"></div>
+                    <img src="./assets/kegiatan2.jpg" alt="Dely" class="pictofme">
+                </aside>
+                <div class="about-text">
+                    <div class="container flex-column">
+                        <section class="about-wrapper">
+                            <div class="text-wrapper">
+                                <h5 class="t-hitam">Tentang <span class="t-blue">BEM ITBA Dian Cipta Cendekia</span></h5>
+                                <h1 class="t-hitam">Wadah Inspirasi dan Inovasi Mahasiswa</h1>
+                                <p class="t-grey">Selamat datang di Badan Eksekutif Mahasiswa (BEM) ITBA DCC, tempat di mana semangat kepemimpinan dan inovasi mahasiswa berkumpul untuk membawa perubahan positif bagi kampus dan masyarakat.
+
+                                    Kami adalah garda terdepan dalam menyuarakan aspirasi, merancang program kerja kreatif, dan menciptakan lingkungan kampus yang dinamis dan penuh dengan peluang. Di bawah bimbingan civitas akademika yang inspiratif, kami berkomitmen untuk terus berinovasi dan memberikan dampak nyata bagi almamater dan masyarakat.</p>
+                            </div>
+                            <a href="#contact" class="btn-contact t-white btn-cta">Bergabung dengan kami</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="works" id="works">
+            <div class="container-sm">
+                <div class="works-title dis-flex jc-between">
+                    <div class="title">
+                        <h4 class="t-hitam t-600">Program Kegiatan</h4>
+                    </div>
+                    <div class="since">
+                        <h4 class="t-hitam t-600">BEM ITBA DCC</h4>
+                    </div>
+                </div>
+                <div class="cards" data-target="card-1">
+                    <div class="cards-title container-sm dis-flex jc-between ai-center">
+                        <h1 class="t-hitam">TEMU NASIONAL</h1>
+                        <h6 class="t-hitam card-subtitle-1">30 Jul 24</h6>
+                        <div class="card-view" id="card-1" data-active="false">
+                            <img src="./assets/pic-kegiatan-1.jpg" alt="GiFin - Technology" class="view-works">
+                        </div>
+                    </div>
+                </div>
+                <div class="cards" data-target="card-2">
+                    <div class="cards-title container-sm dis-flex jc-between ai-center">
+                        <h1 class="t-hitam">Pelantikan Pengurus</h1>
+                        <h5 class="t-hitam card-subtitle-2">30 Mei 24</h5>
+                        <div class="card-view" id="card-2" data-active="false">
+                            <img src="./assets/pic-kegiatan-2.jpg" alt="GiFin - Technology" class="view-works">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="about bg-white" id="about" name="gabung">
+            <div class="container dis-flex">
+                
+                <div class="about-text">
+                    <div class="container flex-column">
+                        <section class="about-wrapper">
+                            <div class="text-wrapper">
+                                <h5 class="t-hitam">Daftarkan dirimu <span class="t-blue">sekarang</span></h5>
+                                <h1 class="t-hitam">BEM ITBA DCC sedang membuka pendaftaran anggota baru</h1>
+                                <p class="t-grey">Hi sahabat kampus merah, bagi kalian mahasiswa semester 1 dan 3 ayo bergabung menjadi anggota "Badan Eksekutif Mahasiswa (BEM) ITBA DCC</p>
+                                <p class="t-grey">Benefit bergabung dengan BEM :</p>
+                                <ul>
+                                    <li class="t-grey"><p> Mendapatkan pengalaman organisasi </p> </li>
+                                    <li class="t-grey"><p> Meningkatkan kemampuan kepemimpinan </p> </li>
+                                    <li class="t-grey"><p> Mengembangkan kreativitas </p> </li>
+                                </ul>
+                            </div>
+                            
+                        </section>
+                    </div>
+                </div>
+                
+                <aside class="about-picture dis-flex ai-end jc-center bg-blue radius">
+                    <div class="bg-aksen aksen-1"></div>
+                    <div class="bg-aksen aksen-2"></div>
+                    <img src="./assets/kegiatan3.png" alt="Dely" class="pictofme">
+                </aside>
+            </div>
+        </article>
+    
+        <article class="contact bg-default" id="contact">
+            <div class="container dis-flex jc-between">
+                <div class="contact-text container-sm">
+                    <h2 class="t-hitam">Kamu bisa mendaftar dengan mengisi formulir dibawah ini</h2>
+                    <form action="">
+                        <div class="kelompok-form">
+                            <input type="text">
+                            <label for="name">Nama lengkap</label>
+                        </div>
+                        <div class="kelompok-form">
+                            <input type="email">
+                            <label for="email">NIM</label>
+                        </div>
+                        <div class="kelompok-form">
+                            <input id="jurusan" rows="5" cols="50">
+                            <label for="jurusan">Jurusan</label>
+                        </div>
+                        <div class="kelompok-form">
+                            <input id="semester" rows="5" cols="50">
+                            <label for="semester">semester</label>
+                        </div>
+                        <div class="kelompok-form">
+                            <input id="kelas" rows="5" cols="50">
+                            <label for="kelas">Kelas</label>
+                        </div>
+                        <button type="submit" class="btn-submit">Gabung</button>
+                    </form>
+                </div>
+                <aside class="info-me">
+                    <div class="profile dis-flex ai-center jc-center">
+                        <img src="./assets/logo_bem.png" class="profile-pic" alt="profile">
+                    </div>
+                    <section>
+                        <div class="container">
+                            <div class="contact-details">
+                                <p class="t-hitam t-700">SOSIAL MEDIA KAMI</p>
+                                <div class="contact-wrapper">
+                                    <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#0F0F0F"></path> </g></svg>
+                                    <h1 class="t-hitam t-500">@bemitbadcc</h1>
+                                </div>
+                                <div class="contact-wrapper">
+                                    <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"></path> </g></svg>
+                                    <h1 class="t-hitam t-500">BEM ITBA DCC</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </article>
+
+    </main>
+    
+    <footer class="bg-blue">
+        <div class="container dis-flex ai-center jc-between">
+            <h1 class="t-white t-500">BEM <span class="t-700">ITBA DCC</span></h1>
+            <div class="footer-wrapper dis-flex jc-between">
+                <div class="dis-flex">
+                    <a href="" class="t-white t-500">@bemitbadcc</a>
+                </div>
+                <p class="t-white t-500">BEM ITBA DCC</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
